@@ -1,0 +1,4 @@
+include ':KeyboardUtil'
+include ':DisplayUtils'
+include ':app'
+rootProject.name = "P_EditText_WindowSoftInputMode"
