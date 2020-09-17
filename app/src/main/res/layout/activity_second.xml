@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/container"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
+
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,9 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="#ff00ff"
+        android:background="#0ff000"
         app:layout_constraintHeight_percent="0.1"
         />
+
+
+
 
     <EditText
         android:id="@+id/edText"
@@ -27,15 +31,6 @@
         app:layout_constraintHeight_percent="0.1"
         android:hint="輸入框"
         />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="toPage2"
-        android:onClick="toPage2"/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
